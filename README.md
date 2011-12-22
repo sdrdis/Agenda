@@ -5,6 +5,7 @@ Cet agenda a été réalisé dans le cadre d'un tutoriel d'apprentissage pour Fu
 http://www.novius-labs.com
 
 Installation par git
+
 * git clone git://github.com/sdrdis/Agenda.git
 * git submodule init
 * git submodule pull
