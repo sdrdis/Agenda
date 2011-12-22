@@ -1,6 +1,17 @@
 #Agenda
+#Agenda
 Cet agenda a été réalisé dans le cadre d'un tutoriel d'apprentissage pour FuelPHP.
+
 http://www.novius-labs.com
+
+Installation par git
+* git clone git://github.com/sdrdis/Agenda.git
+* git submodule init
+* git submodule pull
+
+Si vous installez cet agenda dans un système UNIX, vous pourriez avoir besoin de modifier les droits de certains fichiers.
+
+Enfin, n'oubliez pas de modifier la configuration et migrer la base de données (php oil refine migrate). 
 
 #FuelPHP
 
