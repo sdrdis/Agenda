@@ -9,7 +9,7 @@ return array(
             'hostname'   => 'localhost',
             'database'   => 'tuto_agenda',
             'username'   => 'root',
-            'password'   => 'sebastien',
+            'password'   => 'root',
         ),
     ),
 );
