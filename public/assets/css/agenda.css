@@ -1,0 +1,165 @@
+/* line 8, ../sass/sass/agenda.sass */
+body {
+  font-family: Arial;
+  background-color: #f2f2f2;
+}
+
+/* line 12, ../sass/sass/agenda.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 15, ../sass/sass/agenda.sass */
+input, textarea {
+  background-color: #fafafa;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  font-size: 18px;
+  padding: 3px;
+  width: 95%;
+}
+
+/* line 23, ../sass/sass/agenda.sass */
+textarea {
+  height: 250px;
+}
+
+/* line 26, ../sass/sass/agenda.sass */
+#main {
+  width: 60%;
+  margin: auto;
+}
+/* line 30, ../sass/sass/agenda.sass */
+#main #header {
+  background-color: #aaaaaa;
+  padding: 10px;
+  font-size: 25px;
+  padding-left: 25px;
+}
+/* line 36, ../sass/sass/agenda.sass */
+#main #footer {
+  background-color: #555555;
+  color: #aaaaaa;
+  font-size: 10px;
+  padding: 5px;
+}
+/* line 41, ../sass/sass/agenda.sass */
+#main #footer a {
+  color: white;
+}
+/* line 45, ../sass/sass/agenda.sass */
+#main #menu {
+  border: 1px solid black;
+  font-size: 22px;
+}
+/* line 49, ../sass/sass/agenda.sass */
+#main #menu a.item {
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  padding: 0 15px;
+  color: black;
+}
+/* line 56, ../sass/sass/agenda.sass */
+#main #menu a.item:hover, #main #menu a.item.hover, #main #menu a.item.active {
+  background-color: #e0e0e0;
+}
+/* line 59, ../sass/sass/agenda.sass */
+#main #content {
+  height: 400px;
+  overflow: hidden;
+}
+/* line 63, ../sass/sass/agenda.sass */
+#main #content #list_zone, #main #content #view_zone {
+  width: 49%;
+  height: 100%;
+  float: left;
+  overflow: auto;
+  position: relative;
+}
+/* line 70, ../sass/sass/agenda.sass */
+#main #content #list_zone .inside, #main #content #view_zone .inside {
+  margin: 5px;
+}
+/* line 74, ../sass/sass/agenda.sass */
+#main #content #list_zone .list {
+  margin-top: 10px;
+}
+/* line 77, ../sass/sass/agenda.sass */
+#main #content #list_zone .list a {
+  display: block;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+}
+/* line 83, ../sass/sass/agenda.sass */
+#main #content #list_zone .list a:hover, #main #content #list_zone .list a.hover, #main #content #list_zone .list a.active {
+  background-color: #e0e0e0;
+}
+/* line 86, ../sass/sass/agenda.sass */
+#main #content #view_zone {
+  border-left: 1px solid #dddddd;
+}
+/* line 89, ../sass/sass/agenda.sass */
+#main #content #view_zone label {
+  display: block;
+  border-bottom: 2px solid #aaaaaa;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+}
+/* line 96, ../sass/sass/agenda.sass */
+#main #content #view_zone .no_content {
+  font-size: 22px;
+  color: #777777;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  width: 100%;
+  left: 0;
+}
+
+/* line 107, ../sass/sass/agenda.sass */
+.context_menu {
+  text-align: right;
+}
+/* line 110, ../sass/sass/agenda.sass */
+.context_menu a {
+  display: inline-block;
+  padding: 5px 5px 5px 24px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #aaaaaa;
+  color: black;
+}
+/* line 117, ../sass/sass/agenda.sass */
+.context_menu a:hover, .context_menu a.hover, .context_menu a.active {
+  background-color: #e0e0e0 !important;
+}
+/* line 120, ../sass/sass/agenda.sass */
+.context_menu a.add {
+  background: url(../images/add.png) 4px center no-repeat;
+}
+/* line 123, ../sass/sass/agenda.sass */
+.context_menu a.save {
+  background: url(../images/save.png) 4px center no-repeat;
+}
+/* line 126, ../sass/sass/agenda.sass */
+.context_menu a.delete, .context_menu a.cancel {
+  background: url(../images/delete.png) 4px center no-repeat;
+}
+/* line 129, ../sass/sass/agenda.sass */
+.context_menu a.edit {
+  background: url(../images/edit.png) 4px center no-repeat;
+}

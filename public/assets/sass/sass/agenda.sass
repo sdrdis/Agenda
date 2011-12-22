@@ -1,0 +1,130 @@
+@import "compass/css3"
+
+$border-color: black
+$header-color: #AAA
+$footer-color: #555
+$hover-color: #E0E0E0
+
+body
+  font-family: Arial
+  background-color: #F2F2F2
+
+a
+  text-decoration: none
+  
+input, textarea
+  background-color: #FAFAFA
+  @include border-radius(3px)
+  border: 1px solid #999
+  font-size: 18px
+  padding: 3px
+  width: 95%
+  
+textarea
+  height: 250px
+
+#main
+  width: 60%
+  margin: auto
+  
+  #header
+    background-color: $header-color
+    padding: 10px
+    font-size: 25px
+    padding-left: 25px
+    
+  #footer
+    background-color: $footer-color
+    color: #AAA
+    font-size: 10px
+    padding: 5px
+    a
+      color: white
+    
+  
+  #menu
+    border: 1px solid $border-color
+    font-size: 22px
+    
+    a.item
+      height: 35px
+      line-height: 35px
+      display: inline-block
+      padding: 0 15px
+      color: black
+      
+      &:hover, &.hover, &.active
+        background-color: $hover-color
+        
+  #content
+    height: 400px
+    overflow: hidden
+    
+    #list_zone, #view_zone
+      width: 49%
+      height: 100%
+      float: left
+      overflow: auto
+      position: relative
+      
+      .inside
+        margin: 5px
+      
+    #list_zone
+      .list
+        margin-top: 10px
+        
+        a
+          display: block
+          color: black
+          padding: 5px
+          font-size: 20px
+          
+          &:hover, &.hover, &.active
+            background-color: $hover-color
+      
+    #view_zone
+      border-left: 1px solid #DDD
+        
+      label
+        display: block
+        border-bottom: 2px solid #AAA
+        margin-top: 10px
+        margin-bottom: 5px
+        padding-bottom: 2px
+      
+      .no_content
+        font-size: 22px
+        color: #777
+        margin: auto
+        text-align: center
+        position: absolute
+        top: 50%
+        margin-top: -40px
+        width: 100%
+        left: 0
+        
+.context_menu
+  text-align: right
+  
+  a
+    display: inline-block
+    padding: 5px 5px 5px 24px
+    @include border-radius(3px)
+    border: 1px solid #AAA
+    color: black
+      
+    &:hover, &.hover, &.active
+      background-color: $hover-color !important
+    
+    &.add
+      background: url(../images/add.png) 4px center no-repeat
+      
+    &.save
+      background: url(../images/save.png) 4px center no-repeat
+     
+    &.delete, &.cancel
+      background: url(../images/delete.png) 4px center no-repeat
+      
+    &.edit
+      background: url(../images/edit.png) 4px center no-repeat
