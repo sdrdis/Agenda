@@ -22,7 +22,7 @@
         <div class="error"><?php echo implode('<br/>', (array) Session::get_flash('error')); ?></div>
         <?php endif; ?>
         <?php if (Session::get_flash('success')): ?>
-        <div class="success"><?php echo implode('<br/>', (array) Session::get_flash('error')); ?></div>
+        <div class="success"><?php echo implode('<br/>', (array) Session::get_flash('success')); ?></div>
         <?php endif; ?>
         <div id="list_zone">
             <?php echo $list; ?>
