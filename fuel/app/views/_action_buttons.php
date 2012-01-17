@@ -14,6 +14,6 @@ $menus = array(
     }
     $attr['class'] = $item;
     ?>
-    <a <?= array_to_attr($attr) ?> ><?= $menus[$item] ?></a>
+    <a <?php echo array_to_attr($attr) ?> ><?php echo $menus[$item] ?></a>
     <?php } ?>
 </div>
